@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple (O‘zbekiston) — Rasmiy Premium Texnologiyalar Do‘koni</title>
+  <meta name="description" content="Apple kompaniyasining eng yangi mahsulotlari: iPhone 16 Pro, MacBook Pro, iPad Pro, Apple Watch va AirPods.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 170 170'><path fill='black' d='M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.04-7.58-7.7-11.63-13.98-5.78-8.89-10.46-19.12-14.04-30.68-3.58-11.57-5.37-22.3-5.37-32.19 0-15.64 3.8-28.43 11.41-38.38 7.61-9.95 17.38-15.02 29.31-15.22 4.9 0 10.37 1.25 16.4 3.75 6.03 2.5 10.06 3.79 12.09 3.87 1.83 0 6.04-1.37 12.63-4.11 6.59-2.74 12.28-3.95 17.07-3.64 12.83.63 23.08 5.43 30.74 14.4-11.06 6.72-16.48 16.03-16.27 27.93.21 9.4 3.84 17.31 10.89 23.73 7.05 6.42 15.35 10.09 24.9 11.01-2.46 7.42-5.46 14.77-9 22.04zM119.22 31.84c0-7.72 2.76-14.89 8.28-21.51 5.53-6.62 12.22-10.73 20.08-12.33.22 1.3.33 2.5.33 3.6 0 7.49-2.88 14.73-8.63 21.72-5.75 6.99-12.69 11.03-20.82 12.13-.11-1.2-.17-2.41-.17-3.61z'/></svg>">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="global-header" id="global-header">
+    <div class="nav-container">
+      <nav class="nav-content">
+        <!-- Apple Logo -->
+        <a href="#hero" class="nav-logo" aria-label="Apple Bosh sahifa">
+          <svg class="apple-svg" viewBox="0 0 170 170" width="18" height="18" aria-hidden="true">
+            <path fill="currentColor" d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.04-7.58-7.7-11.63-13.98-5.78-8.89-10.46-19.12-14.04-30.68-3.58-11.57-5.37-22.3-5.37-32.19 0-15.64 3.8-28.43 11.41-38.38 7.61-9.95 17.38-15.02 29.31-15.22 4.9 0 10.37 1.25 16.4 3.75 6.03 2.5 10.06 3.79 12.09 3.87 1.83 0 6.04-1.37 12.63-4.11 6.59-2.74 12.28-3.95 17.07-3.64 12.83.63 23.08 5.43 30.74 14.4-11.06 6.72-16.48 16.03-16.27 27.93.21 9.4 3.84 17.31 10.89 23.73 7.05 6.42 15.35 10.09 24.9 11.01-2.46 7.42-5.46 14.77-9 22.04zM119.22 31.84c0-7.72 2.76-14.89 8.28-21.51 5.53-6.62 12.22-10.73 20.08-12.33.22 1.3.33 2.5.33 3.6 0 7.49-2.88 14.73-8.63 21.72-5.75 6.99-12.69 11.03-20.82 12.13-.11-1.2-.17-2.41-.17-3.61z"/>
+          </svg>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="nav-item">Asosiy</a></li>
+          <li><a href="#iphone" class="nav-item">iPhone</a></li>
+          <li><a href="#mac" class="nav-item">Mac</a></li>
+          <li><a href="#ipad" class="nav-item">iPad</a></li>
+          <li><a href="#watch" class="nav-item">Watch</a></li>
+          <li><a href="#airpods" class="nav-item">AirPods</a></li>
+          <li><a href="#support" class="nav-item">Xizmatlar</a></li>
+        </ul>
+
+        <!-- Action Icons (Search, Cart, Mobile Toggle) -->
+        <div class="nav-actions">
+          <!-- Search Button -->
+          <button class="nav-icon-btn" id="search-btn" aria-label="Qidirish">
+            <svg viewBox="0 0 17 17" width="16" height="16" fill="currentColor">
+              <path d="M16.5 15.2l-4.1-4.1a6.4 6.4 0 1 0-1.3 1.3l4.1 4.1c.4.4 1 .4 1.3 0 .4-.3.4-.9 0-1.3zM2 6.5C2 4 4 2 6.5 2S11 4 11 6.5 9 11 6.5 11 2 9 2 6.5z"/>
+            </svg>
+          </button>
+
+          <!-- Cart Button with dynamic badge -->
+          <button class="nav-icon-btn cart-btn" id="cart-toggle-btn" aria-label="Savatcha">
+            <svg viewBox="0 0 17 17" width="16" height="16" fill="currentColor">
+              <path d="M14.5 4h-2.1c-.2-2.3-2-4-4.4-4s-4.2 1.7-4.4 4H1.5C.7 4 0 4.7 0 5.5l1.3 9.5C1.4 16.1 2.3 17 3.5 17h10c1.2 0 2.1-.9 2.2-2L17 5.5c0-.8-.7-1.5-1.5-1.5zM8 1.5c1.4 0 2.6 1.1 2.8 2.5H5.2c.2-1.4 1.4-2.5 2.8-2.5zm7.3 13.3c-.1.4-.4.7-.8.7H3.5c-.4 0-.7-.3-.8-.7L1.5 5.5h14l-1.2 9.3z"/>
+            </svg>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <!-- Mobile Menu Hamburger -->
+          <button class="nav-icon-btn mobile-menu-btn" id="mobile-menu-btn" aria-label="Menyu">
+            <span class="hamburger-line top"></span>
+            <span class="hamburger-line bottom"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Live Search Dropdown -->
+    <div class="search-overlay" id="search-overlay">
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <svg viewBox="0 0 17 17" width="16" height="16" fill="currentColor" class="search-icon">
+            <path d="M16.5 15.2l-4.1-4.1a6.4 6.4 0 1 0-1.3 1.3l4.1 4.1c.4.4 1 .4 1.3 0 .4-.3.4-.9 0-1.3zM2 6.5C2 4 4 2 6.5 2S11 4 11 6.5 9 11 6.5 11 2 9 2 6.5z"/>
+          </svg>
+          <input type="text" id="site-search-input" placeholder="Mahsulotlarni qidiring (masalan: iPhone 16, MacBook, AirPods)..." autocomplete="off">
+          <button class="search-close-btn" id="search-close-btn">&times;</button>
+        </div>
+        <div class="search-results" id="search-results"></div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="#hero" class="mobile-nav-link">Asosiy</a></li>
+        <li><a href="#iphone" class="mobile-nav-link">iPhone</a></li>
+        <li><a href="#mac" class="mobile-nav-link">Mac</a></li>
+        <li><a href="#ipad" class="mobile-nav-link">iPad</a></li>
+        <li><a href="#watch" class="mobile-nav-link">Apple Watch</a></li>
+        <li><a href="#airpods" class="mobile-nav-link">AirPods</a></li>
+        <li><a href="#support" class="mobile-nav-link">Qo‘llab-quvvatlash</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==================== RIBBON ANNOUNCEMENT ==================== -->
+  <div class="ribbon-bar">
+    <div class="ribbon-content">
+      <span>Yangi avlod: Apple Intelligence imkoniyatlari bilan tanishing. O‘zbekiston bo‘ylab bepul yetkazib berish mavjud.</span>
+      <a href="#iphone" class="ribbon-link">Batafsil &gt;</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==================== HERO SECTION (iPhone 16 Pro) ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background"></div>
+      <div class="hero-content reveal-on-scroll">
+        <span class="hero-eyebrow">Yangi</span>
+        <h1 class="hero-title">iPhone 16 Pro</h1>
+        <p class="hero-subtitle">Titan. So‘nggi quvvat va go‘zallik timsoli.</p>
+        <p class="hero-desc">Apple Intelligence va A18 Pro chipi uchun yaratilgan eng mukammal smartfon.</p>
+        
+        <div class="hero-pricing">
+          <span class="price-main">1,199 $ dan</span>
+          <span class="price-installment">yoki 99.90 $/oyiga (12 oy)</span>
+        </div>
+
+        <div class="hero-actions">
+          <button class="apple-btn btn-primary" onclick="quickAddToCart('iphone-16-pro-max')">
+            Sotib olish
+          </button>
+          <button class="apple-btn btn-secondary" onclick="openProductModal('iphone-16-pro-max')">
+            Batafsil ma’lumot &gt;
+          </button>
+        </div>
+
+        <div class="hero-media-wrapper">
+          <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-finish-select-202409-6-9inch-deserttitanium?wid=1000&hei=1000&fmt=png-alpha" alt="iPhone 16 Pro Max Desert Titanium" class="hero-image" id="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SUB-HERO / BANNER (MacBook Pro) ==================== -->
+    <section class="sub-hero-section reveal-on-scroll">
+      <div class="sub-hero-inner">
+        <div class="sub-hero-text">
+          <span class="hero-eyebrow">Aql bovar qilmas quvvat</span>
+          <h2 class="sub-hero-title">MacBook Pro</h2>
+          <p class="sub-hero-subtitle">M3 Max va M4 Pro bilan eng yuqori cho‘qqi.</p>
+          <div class="sub-hero-actions">
+            <button class="apple-btn btn-primary" onclick="quickAddToCart('macbook-pro-14')">Sotib olish</button>
+            <button class="apple-btn btn-text" onclick="openProductModal('macbook-pro-14')">Ko‘proq bilish &gt;</button>
+          </div>
+        </div>
+        <div class="sub-hero-image-wrap">
+          <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=800&hei=800&fmt=png-alpha" alt="MacBook Pro" class="sub-hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 1. iPHONE SECTION ==================== -->
+    <section class="section-container" id="iphone">
+      <div class="section-header reveal-on-scroll">
+        <h2 class="section-title">iPhone modellari.</h2>
+        <p class="section-subtitle">O‘zingizga mos eng mukammal iPhone ni tanlang.</p>
+      </div>
+
+      <div class="product-grid" id="iphone-grid">
+        <!-- iPhone 16 Pro Max Card -->
+        <div class="product-card reveal-on-scroll" data-category="iphone">
+          <div class="card-badge">Yangi</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-pro-model-unselect-gallery-2-202409?wid=800&hei=800&fmt=png-alpha" alt="iPhone 16 Pro Max" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #c5b8a6;" title="Desert Titanium"></span>
+            <span class="color-dot" style="background-color: #4b4845;" title="Black Titanium"></span>
+            <span class="color-dot" style="background-color: #f2f1ed;" title="White Titanium"></span>
+            <span class="color-dot" style="background-color: #98938b;" title="Natural Titanium"></span>
+          </div>
+          <h3 class="card-title">iPhone 16 Pro Max</h3>
+          <p class="card-headline">Eng katta 6.9 dyuymli ekran va A18 Pro chipi.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>A18 Pro</strong>
+              <span>Eng tezkor mobil protsessor</span>
+            </div>
+            <div class="spec-item">
+              <strong>48 MP</strong>
+              <span>Fusion va 5x Telephoto kamera</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">1,199 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('iphone-16-pro-max')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('iphone-16-pro-max')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- iPhone 16 Card -->
+        <div class="product-card reveal-on-scroll" data-category="iphone">
+          <div class="card-badge">Yangi</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=800&hei=800&fmt=png-alpha" alt="iPhone 16" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #3b5074;" title="Ultramarine"></span>
+            <span class="color-dot" style="background-color: #a4cebe;" title="Teal"></span>
+            <span class="color-dot" style="background-color: #f2b4c8;" title="Pink"></span>
+            <span class="color-dot" style="background-color: #27282a;" title="Black"></span>
+          </div>
+          <h3 class="card-title">iPhone 16</h3>
+          <p class="card-headline">Kamera nazorati tugmasi va A18 protsessori.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>A18 Chip</strong>
+              <span>Apple Intelligence quvvati</span>
+            </div>
+            <div class="spec-item">
+              <strong>2x Telephoto</strong>
+              <span>48 MP Fusion optik sifat</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">799 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('iphone-16')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('iphone-16')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- iPhone 15 Card -->
+        <div class="product-card reveal-on-scroll" data-category="iphone">
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-1inch-blue?wid=800&hei=800&fmt=png-alpha" alt="iPhone 15" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #d1dde6;" title="Blue"></span>
+            <span class="color-dot" style="background-color: #f9e5c9;" title="Yellow"></span>
+            <span class="color-dot" style="background-color: #d7e4d8;" title="Green"></span>
+            <span class="color-dot" style="background-color: #343538;" title="Black"></span>
+          </div>
+          <h3 class="card-title">iPhone 15</h3>
+          <p class="card-headline">Dinamik orol (Dynamic Island) va USB-C ulanishi.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>A16 Bionic</strong>
+              <span>Sinovdan o‘tgan ishonchli quvvat</span>
+            </div>
+            <div class="spec-item">
+              <strong>USB-C</strong>
+              <span>Universal tezkor zaryadlash</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">699 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('iphone-15')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('iphone-15')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. MAC SECTION ==================== -->
+    <section class="section-container dark-mode-section" id="mac">
+      <div class="section-header reveal-on-scroll">
+        <h2 class="section-title">MacBook modellari.</h2>
+        <p class="section-subtitle">Aql bovar qilmas samaradorlik va kun bo‘yi yetadigan batareya.</p>
+      </div>
+
+      <div class="product-grid two-column-grid">
+        <!-- MacBook Pro 14 / 16 -->
+        <div class="product-card dark-card reveal-on-scroll" data-category="mac">
+          <div class="card-badge badge-pro">Pro Samaradorlik</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=800&hei=800&fmt=png-alpha" alt="MacBook Pro" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #2e3033;" title="Space Black"></span>
+            <span class="color-dot" style="background-color: #e3e4e6;" title="Silver"></span>
+          </div>
+          <h3 class="card-title">MacBook Pro 14″ va 16″</h3>
+          <p class="card-headline">M3 Pro yoki M4 Max chipi bilan eng og‘ir vazifalar uchun.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Liquid Retina XDR</strong>
+              <span>120Hz ProMotion va 1600 nit yorqinlik</span>
+            </div>
+            <div class="spec-item">
+              <strong>22 soat</strong>
+              <span>Mac tarixidagi eng uzoq batareya quvvati</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">1,599 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('macbook-pro-14')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('macbook-pro-14')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- MacBook Air 13 / 15 -->
+        <div class="product-card dark-card reveal-on-scroll" data-category="mac">
+          <div class="card-badge">Ommabop</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=800&hei=800&fmt=png-alpha" alt="MacBook Air" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #1f2733;" title="Midnight"></span>
+            <span class="color-dot" style="background-color: #e5ded2;" title="Starlight"></span>
+            <span class="color-dot" style="background-color: #7d7e80;" title="Space Gray"></span>
+            <span class="color-dot" style="background-color: #e3e4e6;" title="Silver"></span>
+          </div>
+          <h3 class="card-title">MacBook Air 13″ va 15″</h3>
+          <p class="card-headline">M3 chipi bilan nihoyatda nozik, jim va chaqqon noutbuk.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Apple M3</strong>
+              <span>Tezkor 8-yadroli CPU va 10-yadroli GPU</span>
+            </div>
+            <div class="spec-item">
+              <strong>Ventilyatorsiz</strong>
+              <span>Mutlaqo sokin ish faoliyati</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">1,099 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('macbook-air-15')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('macbook-air-15')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. IPAD SECTION ==================== -->
+    <section class="section-container" id="ipad">
+      <div class="section-header reveal-on-scroll">
+        <h2 class="section-title">iPad. Cheksiz imkoniyatlar.</h2>
+        <p class="section-subtitle">Chizish, yozish, video montaj va kundalik unumdorlik.</p>
+      </div>
+
+      <div class="product-grid two-column-grid">
+        <!-- iPad Pro M4 -->
+        <div class="product-card reveal-on-scroll" data-category="ipad">
+          <div class="card-badge badge-pro">Inqilobiy OLED</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-model-select-gallery-1-202405?wid=800&hei=800&fmt=png-alpha" alt="iPad Pro M4" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #2e3033;" title="Space Black"></span>
+            <span class="color-dot" style="background-color: #e3e4e6;" title="Silver"></span>
+          </div>
+          <h3 class="card-title">iPad Pro 11″ va 13″</h3>
+          <p class="card-headline">Ultra Retina XDR Tandem OLED ekrani va qudratli M4 chipi.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Apple M4</strong>
+              <span>Eng yangi neyron dvigatel va 3nm chip</span>
+            </div>
+            <div class="spec-item">
+              <strong>5.1 mm</strong>
+              <span>Apple tarixidagi eng yupqa qurilma</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">999 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('ipad-pro-m4')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('ipad-pro-m4')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- iPad Air M2 -->
+        <div class="product-card reveal-on-scroll" data-category="ipad">
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-select-gallery-202405-11inch-blue-wifi?wid=800&hei=800&fmt=png-alpha" alt="iPad Air M2" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #a4c4d9;" title="Blue"></span>
+            <span class="color-dot" style="background-color: #d1bfe3;" title="Purple"></span>
+            <span class="color-dot" style="background-color: #e5ded2;" title="Starlight"></span>
+            <span class="color-dot" style="background-color: #7d7e80;" title="Space Gray"></span>
+          </div>
+          <h3 class="card-title">iPad Air 11″ va 13″</h3>
+          <p class="card-headline">M2 chipining kuchi endi ikki xil o‘lchamda.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Apple M2</strong>
+              <span>Pro darajasidagi tezlik va grafika</span>
+            </div>
+            <div class="spec-item">
+              <strong>Apple Pencil Pro</strong>
+              <span>Yangi imo-ishoralar va haptik aloqa</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">599 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('ipad-air-m2')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('ipad-air-m2')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. APPLE WATCH SECTION ==================== -->
+    <section class="section-container" id="watch">
+      <div class="section-header reveal-on-scroll">
+        <h2 class="section-title">Apple Watch. Sog‘lik va faollik.</h2>
+        <p class="section-subtitle">Bilasizki, bilagingizda butun bir shaxsiy murabbiy bor.</p>
+      </div>
+
+      <div class="product-grid two-column-grid">
+        <!-- Series 10 -->
+        <div class="product-card reveal-on-scroll" data-category="watch">
+          <div class="card-badge">Yangi</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/s10-case-unselect-gallery-1-202409?wid=800&hei=800&fmt=png-alpha" alt="Apple Watch Series 10" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #1a1a1a;" title="Jet Black"></span>
+            <span class="color-dot" style="background-color: #e8c6b6;" title="Rose Gold"></span>
+            <span class="color-dot" style="background-color: #dcdde0;" title="Silver"></span>
+          </div>
+          <h3 class="card-title">Apple Watch Series 10</h3>
+          <p class="card-headline">Eng katta OLED displey va eng yupqa alyuminiy korpus.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Keng burchakli OLED</strong>
+              <span>Har tomondan 40% yorqinroq ko‘rinish</span>
+            </div>
+            <div class="spec-item">
+              <strong>Tez zaryad</strong>
+              <span>30 daqiqada 80% gacha to‘ladi</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">399 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('watch-series-10')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('watch-series-10')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ultra 2 -->
+        <div class="product-card reveal-on-scroll" data-category="watch">
+          <div class="card-badge badge-pro">Ekstremal Chidamlilik</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409?wid=800&hei=800&fmt=png-alpha" alt="Apple Watch Ultra 2" class="product-img" loading="lazy">
+          </div>
+          <div class="card-colors">
+            <span class="color-dot active" style="background-color: #27282a;" title="Black Titanium"></span>
+            <span class="color-dot" style="background-color: #b7b3ab;" title="Natural Titanium"></span>
+          </div>
+          <h3 class="card-title">Apple Watch Ultra 2</h3>
+          <p class="card-headline">Qora titan korpus va eng qiyin sinovlarga tayyor quvvat.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>3000 nit</strong>
+              <span>Quyosh ostida ham a’lo ko‘rinadigan ekran</span>
+            </div>
+            <div class="spec-item">
+              <strong>72 soat</strong>
+              <span>Kam quvvat rejimida uzoq muddat</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">799 $</span>
+              <span class="price-note">dan boshlab</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('watch-ultra-2')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('watch-ultra-2')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. AIRPODS SECTION ==================== -->
+    <section class="section-container" id="airpods">
+      <div class="section-header reveal-on-scroll">
+        <h2 class="section-title">AirPods. Sehrli ovoz.</h2>
+        <p class="section-subtitle">Fazoviy audio va faol shovqinni to‘liq bartaraf etish.</p>
+      </div>
+
+      <div class="product-grid three-column-grid">
+        <!-- AirPods Pro 2 -->
+        <div class="product-card reveal-on-scroll" data-category="airpods">
+          <div class="card-badge badge-pro">Pro Audio</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=800&hei=800&fmt=png-alpha" alt="AirPods Pro 2" class="product-img" loading="lazy">
+          </div>
+          <h3 class="card-title">AirPods Pro (2-avlod)</h3>
+          <p class="card-headline">2 karra kuchli shovqinni bekor qilish va eshitish salomatligi.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>H2 Chip</strong>
+              <span>Aqlli moslashuvchan audio boshqaruvi</span>
+            </div>
+            <div class="spec-item">
+              <strong>USB-C Case</strong>
+              <span>MagSafe va karnayli g‘ilof</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">249 $</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('airpods-pro-2')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('airpods-pro-2')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- AirPods Max -->
+        <div class="product-card reveal-on-scroll" data-category="airpods">
+          <div class="card-badge">Premium Hi-Fi</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-202409-midnight?wid=800&hei=800&fmt=png-alpha" alt="AirPods Max" class="product-img" loading="lazy">
+          </div>
+          <h3 class="card-title">AirPods Max</h3>
+          <p class="card-headline">Hi-Fi akustika, yangi ranglar va USB-C zaryadlash porti.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Akustik dizayn</strong>
+              <span>Toza va tiniq baslar, fazoviy ovoz</span>
+            </div>
+            <div class="spec-item">
+              <strong>20 soat</strong>
+              <span>ANC bilan yuqori sifatli musiqa tinglash</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">549 $</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('airpods-max')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('airpods-max')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- AirPods 4 -->
+        <div class="product-card reveal-on-scroll" data-category="airpods">
+          <div class="card-badge">Yangi</div>
+          <div class="card-image-box">
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-4-anc-select-202409?wid=800&hei=800&fmt=png-alpha" alt="AirPods 4" class="product-img" loading="lazy">
+          </div>
+          <h3 class="card-title">AirPods 4</h3>
+          <p class="card-headline">Ochiq dizayndagi eng birinchi Faol Shovqinni Bekor Qilish.</p>
+          <div class="card-specs">
+            <div class="spec-item">
+              <strong>Qulay dizayn</strong>
+              <span>Barcha quloq shakliga mukammal moslik</span>
+            </div>
+            <div class="spec-item">
+              <strong>Fazoviy ovoz</strong>
+              <span>Bosh harakatlarini kuzatuvchi audio</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="price-value">179 $</span>
+            </div>
+            <div class="card-buttons">
+              <button class="btn-sm btn-outline" onclick="openProductModal('airpods-4')">Batafsil</button>
+              <button class="btn-sm btn-fill" onclick="quickAddToCart('airpods-4')">Savatchaga</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APPLE VALUES / FEATURES ==================== -->
+    <section class="values-section reveal-on-scroll" id="support">
+      <div class="values-inner">
+        <h2 class="values-title">Nima uchun Apple Store dan xarid qilasiz?</h2>
+        <div class="values-grid">
+          <div class="value-item">
+            <div class="value-icon">🚚</div>
+            <h3>Bepul va tezkor yetkazib berish</h3>
+            <p>O‘zbekistonning istalgan nuqtasiga eshikkacha tezkor yetkazib berish xizmati.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">🛡️</div>
+            <h3>1 Yillik Rasmiy Kafolat</h3>
+            <p>Apple kompaniyasining xalqaro kafolati va rasmiy servis markazi xizmatlari.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">💳</div>
+            <h3>Foizsiz bo‘lib to‘lash</h3>
+            <p>Hech qanday boshlang‘ich to‘lovlarsiz va ortiqcha foizlarsiz qulay muddatli to‘lov.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon">💬</div>
+            <h3>Professional maslahat</h3>
+            <p>Apple ekspertlari sizga eng to‘g‘ri qurilmani tanlashda yordam berishga tayyor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== PRODUCT DETAIL MODAL ==================== -->
+  <div class="modal-backdrop" id="product-modal">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Yopish">&times;</button>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Dynamic content filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== CART DRAWER ==================== -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <svg viewBox="0 0 17 17" width="18" height="18" fill="currentColor">
+          <path d="M14.5 4h-2.1c-.2-2.3-2-4-4.4-4s-4.2 1.7-4.4 4H1.5C.7 4 0 4.7 0 5.5l1.3 9.5C1.4 16.1 2.3 17 3.5 17h10c1.2 0 2.1-.9 2.2-2L17 5.5c0-.8-.7-1.5-1.5-1.5zM8 1.5c1.4 0 2.6 1.1 2.8 2.5H5.2c.2-1.4 1.4-2.5 2.8-2.5zm7.3 13.3c-.1.4-.4.7-.8.7H3.5c-.4 0-.7-.3-.8-.7L1.5 5.5h14l-1.2 9.3z"/>
+        </svg>
+        <h3>Savatchangiz</h3>
+      </div>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Savatchani yopish">&times;</button>
+    </div>
+
+    <!-- Cart Items List -->
+    <div class="cart-items-wrapper" id="cart-items-wrapper">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Cart Footer & Checkout Button -->
+    <div class="cart-footer" id="cart-footer">
+      <div class="cart-summary-row">
+        <span>Yetkazib berish:</span>
+        <span class="delivery-free">BEPUL</span>
+      </div>
+      <div class="cart-summary-row total-row">
+        <span>Jami summa:</span>
+        <span class="cart-total-price" id="cart-total-price">0 $</span>
+      </div>
+      <button class="apple-btn btn-primary checkout-trigger-btn" id="checkout-trigger-btn">
+        Buyurtmani rasmiylashtirish
+      </button>
+      <button class="cart-clear-btn" id="cart-clear-btn">Savatchani tozalash</button>
+    </div>
+  </aside>
+
+  <!-- ==================== CHECKOUT MODAL & TELEGRAM ORDER ==================== -->
+  <div class="modal-backdrop" id="checkout-modal">
+    <div class="modal-dialog checkout-dialog">
+      <button class="modal-close-btn" id="checkout-close-btn" aria-label="Yopish">&times;</button>
+      <div class="checkout-form-container">
+        <div class="checkout-header">
+          <svg class="apple-svg" viewBox="0 0 170 170" width="28" height="28">
+            <path fill="currentColor" d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.04-7.58-7.7-11.63-13.98-5.78-8.89-10.46-19.12-14.04-30.68-3.58-11.57-5.37-22.3-5.37-32.19 0-15.64 3.8-28.43 11.41-38.38 7.61-9.95 17.38-15.02 29.31-15.22 4.9 0 10.37 1.25 16.4 3.75 6.03 2.5 10.06 3.79 12.09 3.87 1.83 0 6.04-1.37 12.63-4.11 6.59-2.74 12.28-3.95 17.07-3.64 12.83.63 23.08 5.43 30.74 14.4-11.06 6.72-16.48 16.03-16.27 27.93.21 9.4 3.84 17.31 10.89 23.73 7.05 6.42 15.35 10.09 24.9 11.01-2.46 7.42-5.46 14.77-9 22.04zM119.22 31.84c0-7.72 2.76-14.89 8.28-21.51 5.53-6.62 12.22-10.73 20.08-12.33.22 1.3.33 2.5.33 3.6 0 7.49-2.88 14.73-8.63 21.72-5.75 6.99-12.69 11.03-20.82 12.13-.11-1.2-.17-2.41-.17-3.61z"/>
+          </svg>
+          <h2>Buyurtmani rasmiylashtirish</h2>
+          <p>Ma’lumotlaringizni kiriting va buyurtma zudlik bilan Telegram orqali operatorga yo‘naltiriladi.</p>
+        </div>
+
+        <form id="order-form" class="order-form">
+          <div class="form-group">
+            <label for="customer-name">Ism va Familiyangiz *</label>
+            <input type="text" id="customer-name" required placeholder="Masalan: Sardor Aliyev">
+          </div>
+
+          <div class="form-group">
+            <label for="customer-phone">Telefon raqamingiz *</label>
+            <input type="tel" id="customer-phone" required placeholder="+998 90 123 45 67">
+          </div>
+
+          <div class="form-group">
+            <label for="customer-address">Yetkazib berish manzili *</label>
+            <input type="text" id="customer-address" required placeholder="Shahar, tuman, ko‘cha va xonadon raqami">
+          </div>
+
+          <div class="form-group">
+            <label for="customer-notes">Qo‘shimcha izoh (ixtiyoriy)</label>
+            <textarea id="customer-notes" rows="2" placeholder="Masalan: Soat 18:00 dan keyin yetkazilsin"></textarea>
+          </div>
+
+          <!-- Order Items Summary in Form -->
+          <div class="order-preview-box" id="order-preview-box">
+            <!-- Dynamic items summary -->
+          </div>
+
+          <button type="submit" class="apple-btn btn-primary submit-order-btn" id="submit-order-btn">
+            <span class="btn-text-content">Buyurtmani tasdiqlash</span>
+            <span class="spinner-loader" style="display: none;"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div class="toast-notification" id="toast-notification">
+    <div class="toast-icon" id="toast-icon">✓</div>
+    <div class="toast-message" id="toast-message">Mahsulot savatchaga qo‘shildi!</div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="global-footer">
+    <div class="footer-container">
+      <div class="footer-notes">
+        <p>1. Narxlar AQSH dollarida ko‘rsatilgan va xarid kunidagi Markaziy Bank kursi bo‘yicha milliy valyutada ham to‘lanishi mumkin.</p>
+        <p>2. Apple Intelligence xizmatlari yangilangan iOS, iPadOS va macOS tizimlarida bosqichma-bosqich taqdim etiladi.</p>
+        <p>3. Yetkazib berish butun O‘zbekiston Respublikasi hududi bo‘ylab mutlaqo bepul amalga oshiriladi.</p>
+      </div>
+
+      <div class="footer-directory">
+        <div class="directory-column">
+          <h4>Mahsulotlar</h4>
+          <ul>
+            <li><a href="#iphone">iPhone 16 Pro</a></li>
+            <li><a href="#iphone">iPhone 16</a></li>
+            <li><a href="#mac">MacBook Pro</a></li>
+            <li><a href="#mac">MacBook Air</a></li>
+            <li><a href="#ipad">iPad Pro M4</a></li>
+            <li><a href="#ipad">iPad Air M2</a></li>
+            <li><a href="#watch">Apple Watch Series 10</a></li>
+            <li><a href="#watch">Apple Watch Ultra 2</a></li>
+            <li><a href="#airpods">AirPods Pro 2</a></li>
+            <li><a href="#airpods">AirPods Max</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-column">
+          <h4>Apple Hisob</h4>
+          <ul>
+            <li><a href="#hero">Apple ID ni boshqarish</a></li>
+            <li><a href="#hero">Apple Store hisobi</a></li>
+            <li><a href="#hero">iCloud.com</a></li>
+          </ul>
+          <h4 style="margin-top: 20px;">Ko‘ngilochar</h4>
+          <ul>
+            <li><a href="#hero">Apple Music</a></li>
+            <li><a href="#hero">Apple TV+</a></li>
+            <li><a href="#hero">Apple Arcade</a></li>
+            <li><a href="#hero">Apple Podcasts</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-column">
+          <h4>Apple Store Do‘koni</h4>
+          <ul>
+            <li><a href="#hero">Buyurtma holati</a></li>
+            <li><a href="#hero">Yetkazib berish shartlari</a></li>
+            <li><a href="#hero">Qaytarish siyosati</a></li>
+            <li><a href="#hero">To‘lov turlari</a></li>
+            <li><a href="#hero">Kafolat va xizmat ko‘rsatish</a></li>
+          </ul>
+        </div>
+
+        <div class="directory-column">
+          <h4>Apple Qadriyatlari</h4>
+          <ul>
+            <li><a href="#hero">Foydalanish qulayligi</a></li>
+            <li><a href="#hero">Ta’lim</a></li>
+            <li><a href="#hero">Ekologiya va atrof-muhit</a></li>
+            <li><a href="#hero">Maxfiylik va xavfsizlik</a></li>
+          </ul>
+          <h4 style="margin-top: 20px;">Apple Haqida</h4>
+          <ul>
+            <li><a href="#hero">Yangiliklar xonasi</a></li>
+            <li><a href="#hero">Apple Rahbariyati</a></li>
+            <li><a href="#hero">Ish o‘rinlari</a></li>
+            <li><a href="#hero">Investorlar uchun</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-legal">
+        <div class="footer-legal-top">
+          <span>Boshqa xarid qilish yo‘llari: <a href="tel:+998712000000">+998 71 200-00-00</a> raqamiga qo‘ng‘iroq qiling yoki vakolatli dilerlarimizga murojaat qiling.</span>
+        </div>
+        <div class="footer-legal-bottom">
+          <div class="copyright">
+            Copyright © 2026 Apple Inc. Barcha huquqlar himoyalangan.
+          </div>
+          <div class="legal-links">
+            <a href="#hero">Maxfiylik siyosati</a>
+            <a href="#hero">Foydalanish shartlari</a>
+            <a href="#hero">Savdo va qaytarish</a>
+            <a href="#hero">Yuridik ma’lumot</a>
+            <a href="#hero">Sayt xaritasi</a>
+          </div>
+          <div class="locale-select">
+            O‘zbekiston (O‘zbekcha)
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
